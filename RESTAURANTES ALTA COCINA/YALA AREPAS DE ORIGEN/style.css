@@ -1,0 +1,163 @@
+
+body{
+
+    color: black;
+    background-image: url(./IMG/fondo\ de\ menu.jpg);
+    background-size: 100%;
+    width: 100%;
+   
+}
+
+#pagina{
+
+    column-count: 2;
+    padding: 3em;
+}
+
+#inicio{
+
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+#inicio img{
+
+    width: 20%;
+    height: 10vh;
+}
+
+#sc1 img{
+
+    width: 90%;
+    height: 90vh;
+    border-radius: 20px;
+}
+
+.informacion a{
+
+    color: red;
+    font-size: 22PX;
+}
+p{
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+li{
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+h1{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+h2{
+    
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+#inicio a{
+
+    background-color: rgba(149, 109, 0, 0.782);
+    background-image: linear-gradient(180deg,);
+    border-radius: 30px;
+    color: black;
+   
+    font-size: 22px;
+    
+    cursor: pointer;
+    transition: .3s;
+    height: 5vh;
+    width: 10%;
+    
+    display: block;
+    text-align: center;
+    
+    
+  
+    
+    
+  }
+  a:hover span{
+  
+    background: content-box;
+  }
+  a:active{
+    transform: scale(0.9);
+}
+@media only screen and (max-width: 500px) {
+    body { 
+      padding: 0%;
+  
+    }
+
+#inicio a{
+
+    width: 30%;
+    height: 5vh;
+}
+#inicio img{
+
+    width: 50%;
+    height: 15vh;
+}
+
+    #pagina{
+
+
+    display: flex;
+    flex-direction: column;
+}
+#sc1 img{
+
+    width: 90%;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+}
+
+@media only screen and (max-width: 900px) {
+    body { 
+      padding: 0%;
+  
+    }
+
+#inicio a{
+
+    width: 30%;
+    height: 5vh;
+}
+#inicio img{
+
+    width: 50%;
+    height: 15vh;
+}
+
+    #pagina{
+
+
+    display: flex;
+    flex-direction: column;
+}
+#sc1 img{
+
+    width: 90%;
+    height: 60vh;
+    border-radius: 20px;
+}
+
+}
