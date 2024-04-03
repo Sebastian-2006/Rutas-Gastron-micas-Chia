@@ -97,7 +97,7 @@ h2{
     transform: scale(0.9);
 
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
     body { 
       padding: 0%;
   
@@ -120,19 +120,15 @@ h2{
     display: flex;
     flex-direction: column;
 }
-
-
 #sc1 img{
 
     width: 90%;
-    height: 50vh;
+    height: 90vh;
     border-radius: 20px;
 }
 
-
-
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 600px) {
     body { 
       padding: 0%;
   
